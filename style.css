@@ -205,18 +205,18 @@ body {
 
   @media (max-width: 650px) {
     .lletra {
-      font-size: 1.8rem;
-      left: calc(5% + calc(var(--left)*9%));
+      font-size: 2rem;
+      left: calc(2% + calc(var(--left)*7%));
     }
     .globus {
-      left: calc(5% + calc(var(--left)*9%));
+      left: calc(2% + calc(var(--left)*7%));
     }
     .cercle{
-      left: calc(5% + calc(var(--left)*9%));
+      left: calc(2% + calc(var(--left)*7%));
       width: 50px;
       height: 50px;
     }
     .firework{
-      left: calc(5% + calc(var(--left)*9%));
+      left: calc(2% + calc(var(--left)*7%));
     }
   }
