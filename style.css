@@ -203,9 +203,9 @@ body {
   z-index:-100;
   }
 
-  @media (max-width: 450px) {
+  @media (max-width: 650px) {
     .lletra {
-      font-size: 2rem;
+      font-size: 1.8rem;
       left: calc(5% + calc(var(--left)*9%));
     }
     .globus {
@@ -213,6 +213,8 @@ body {
     }
     .cercle{
       left: calc(5% + calc(var(--left)*9%));
+      width: 50px;
+      height: 50px;
     }
     .firework{
       left: calc(5% + calc(var(--left)*9%));
