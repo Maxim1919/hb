@@ -108,7 +108,7 @@ body {
     width: 0.5vmin;
     opacity: 0;
     top: var(--top);
-    left: calc(20% + calc(var(--left)*4%));
+    left: calc(20% + calc(var(--left)*2%));
     aspect-ratio: 1;
     background:
       
@@ -135,7 +135,7 @@ body {
     position: absolute;
     opacity: 0;
     top: var(--top);
-    left: calc(20% + calc(var(--left)*4%));
+    left: calc(20% + calc(var(--left)*2%));
     transform: translate(-50%, -50%) scale(0);
     border-radius: 50%;
     background-color: #fff;
@@ -151,7 +151,7 @@ body {
    position: absolute;
    opacity: 0;
    top: var(--top);
-   left: calc(20% + calc(var(--left)*4%));
+   left: calc(20% + calc(var(--left)*2%));
    transform: translate(-50%, 0%); 
    color: var(--color);
    font-size: 3rem;
@@ -164,7 +164,7 @@ body {
     position: absolute;
     opacity: 0;
     top: var(--top);
-    left: calc(20% + calc(var(--left)*4%));
+    left: calc(20% + calc(var(--left)*2%));
    transform: translate(-50%, -80%);
    animation: globus 13s infinite;
    animation-delay: var(--delay);
