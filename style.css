@@ -78,7 +78,7 @@ body {
         opacity: 1;
     }
     100% {
-        transform: translate(var(--pg), -350px);
+        transform: translate(var(--pg), -400px);
         opacity: 1;
     }
   }
@@ -97,7 +97,7 @@ body {
         opacity: 1;
     }
     100% {
-        transform: translate(var(--pg), -420px);
+        transform: translate(var(--pg), -450px);
     }
   }
 
@@ -201,4 +201,20 @@ body {
   position:absolute;
   bottom:-12px;
   z-index:-100;
+  }
+
+@media (max-width: 350px) {
+    .lletra {
+      font-size: 2rem;
+      left: calc(10% + calc(var(--left)*7%));
+    }
+    .globus {
+      left: calc(10% + calc(var(--left)*7%));
+    }
+    .cercle{
+      left: calc(10% + calc(var(--left)*7%));
+    }
+    .firework{
+      left: calc(10% + calc(var(--left)*7%));
+    }
   }
