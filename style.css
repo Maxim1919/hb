@@ -203,7 +203,7 @@ body {
   z-index:-100;
   }
 
-@media (max-width: 350px) {
+@media (max-width: 550px) {
     .lletra {
       font-size: 2rem;
       left: calc(10% + calc(var(--left)*9%));
