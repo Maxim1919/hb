@@ -206,15 +206,15 @@ body {
 @media (max-width: 550px) {
     .lletra {
       font-size: 2rem;
-      left: calc(10% + calc(var(--left)*9%));
+      left: calc(30% + calc(var(--left)*9%));
     }
     .globus {
-      left: calc(10% + calc(var(--left)*9%));
+      left: calc(30% + calc(var(--left)*9%));
     }
     .cercle{
-      left: calc(10% + calc(var(--left)*9%));
+      left: calc(30% + calc(var(--left)*9%));
     }
     .firework{
-      left: calc(10% + calc(var(--left)*9%));
+      left: calc(30% + calc(var(--left)*9%));
     }
   }
